@@ -1,0 +1,4 @@
+?package(hello-qt5):needs="x11" \
+ section="Applications/Editors" \
+ title="Hello Qt5" \
+ command="/usr/bin/hello-qt5"

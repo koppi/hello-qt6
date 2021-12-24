@@ -1,0 +1,3 @@
+bin/hello-qt5 usr/bin
+hello-qt5.desktop usr/share/applications
+src/hello-qt5.ico usr/share/pixmaps

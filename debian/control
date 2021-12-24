@@ -1,0 +1,17 @@
+Source: hello-qt5
+Section: editors
+Priority: optional
+Maintainer: Jakob Flierl <jakob.flierl@gmail.com>
+Uploaders: Jakob Flierl <jakob.flierl@gmail.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev, qtbase5-dev-tools, qt5-qmake, libqt5gui5
+Standards-Version: 3.9.6
+Homepage: https://github.com/koppi/hello-qt5
+Vcs-Git: git://github.com/koppi/hello-qt5.git
+Vcs-Browser: https://github.com/koppi/hello-qt5
+
+
+Package: hello-qt5
+Architecture: any
+Depends: libqt5gui5, libqt5widgets5, libqt5core5a, ${shlibs:Depends}, ${misc:Depends}
+Description: qt5 hello world
+ Hello world in qt5.
