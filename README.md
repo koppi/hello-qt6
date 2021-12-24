@@ -1,5 +1,7 @@
 # hello world in qt5
 
+[![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
+
 ## Installation
 
 Clone, build and run hello-qt5 as follows:
