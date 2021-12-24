@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="hello-qt5.svg"
+   width="512"
+   height="512"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs56" /><sodipodi:namedview
+   id="namedview54"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   width="512px"
+   inkscape:zoom="0.54375"
+   inkscape:cx="469.88506"
+   inkscape:cy="194.02299"
+   inkscape:window-width="1280"
+   inkscape:window-height="736"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#0076AE;}
+	.st1{fill:#0B4A70;}
+	.st2{fill:#8B523E;}
+	.st3{fill:none;stroke:#A26E3D;stroke-width:39.7858;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#A26E3D;stroke-width:39.7858;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:#A26E3D;}
+</style>
+<g
+   id="Layer_1_1_"
+   transform="matrix(0.75869944,0,0,0.76271256,-104.33248,-103.01452)">
+	<g
+   id="g50">
+		<g
+   id="g38">
+			<path
+   class="st0"
+   d="m 372.5,247.8 c -25.8,24.4 -28.9,71.1 -12.2,124.1 L 428,319.8 Z"
+   id="path4" />
+			<path
+   class="st0"
+   d="m 418.6,480.4 c 0.4,0.5 0.8,1 1.2,1.5 l 83.5,-64.4 -68.2,-88.5 -70.9,54.6 c 11.6,31.7 29.9,65 54.4,96.8 z"
+   id="path6" />
+			<path
+   class="st0"
+   d="M 512.6,410.4 596.1,346 c -0.4,-0.5 -0.8,-1 -1.2,-1.5 -24.5,-31.8 -52.1,-58 -79.7,-77.2 l -70.9,54.6 z"
+   id="path8" />
+			<path
+   class="st0"
+   d="m 409.3,487.6 c -23.9,-31 -42.5,-64 -54.7,-96.5 L 289.9,441 c 4.8,37.1 19.1,73.4 43.6,105.1 0.4,0.5 0.8,1 1.2,1.5 l 75.8,-58.4 c -0.4,-0.6 -0.8,-1.1 -1.2,-1.6 z"
+   id="path10" />
+			<path
+   class="st0"
+   d="m 381.8,240.6 55.4,71.9 67.7,-52.1 c -47,-29.7 -93,-38.6 -123.1,-19.8 z"
+   id="path12" />
+			<path
+   class="st0"
+   d="m 350.4,379.4 c -4.2,-12.8 -7.4,-25.5 -9.5,-37.8 -5.2,-31.6 -2.7,-58.8 7.1,-79.5 -43,45.2 -63.5,105.5 -59.6,165.1 z"
+   id="path14" />
+			<g
+   id="g32">
+				<path
+   class="st1"
+   d="m 631.8,584.3 -49.7,-64.5 -64.7,49.9 c 43.9,25.4 86.1,32.2 114.4,14.6 z"
+   id="path16" />
+				<path
+   class="st1"
+   d="m 574.9,510.5 -64.4,-83.6 -83.3,64.2 c 24.8,30 52.2,54.5 79.5,72 z"
+   id="path18" />
+				<path
+   class="st1"
+   d="m 417.8,498.3 -75.7,58.3 c 25.6,29.3 57.5,50.2 92.2,62.2 l 62.5,-48.2 c -27.8,-18.3 -54.9,-43 -79,-72.3 z"
+   id="path20" />
+				<path
+   class="st1"
+   d="m 688.2,289.9 -75.7,58.3 c 22.2,30.8 39.2,63.2 49.9,94.8 l 62.5,-48.2 C 722,358.3 710,322.1 688.2,289.9 Z"
+   id="path22" />
+				<path
+   class="st1"
+   d="M 533.1,590.8 C 524.5,587 516,582.4 507.5,577.3 L 448,623.2 c 53.8,14.9 112.7,9.1 163.8,-19 -22.6,4.2 -49.5,-0.2 -78.7,-13.4 z"
+   id="path24" />
+				<path
+   class="st1"
+   d="m 656.2,462.7 -64.7,49.9 49.7,64.5 c 24.2,-22.9 28.4,-65.5 15,-114.4 z"
+   id="path26" />
+				<path
+   class="st1"
+   d="m 666.2,455 c 2.8,9.5 5,19 6.5,28.2 5.2,31.6 2.7,58.8 -7.1,79.5 40.2,-42.3 60.8,-97.8 60.1,-153.5 z"
+   id="path28" />
+				<path
+   class="st1"
+   d="m 603.2,355.4 -83.3,64.2 64.4,83.6 68.3,-52.7 c -10,-30.7 -26.7,-63.4 -49.4,-95.1 z"
+   id="path30" />
+			</g>
+			<path
+   class="st0"
+   d="m 589.6,209.9 -64.7,49.9 c 28.3,20.1 55.5,46.5 79.4,77.5 0.4,0.5 0.8,1 1.2,1.5 l 75.8,-58.4 c -0.4,-0.5 -0.7,-1 -1.1,-1.6 -24.5,-31.7 -55.9,-54.8 -90.6,-68.9 z"
+   id="path34" />
+			<path
+   class="st0"
+   d="m 480.5,234 c 11.4,5.1 22.9,11.4 34.2,18.8 l 62,-47.8 C 520,186.1 456.5,190.6 401.9,220.6 c 22.5,-4.1 49.4,0.3 78.6,13.4 z"
+   id="path36" />
+		</g>
+		<polygon
+   class="st2"
+   points="459.8,741.6 481.1,691.5 553.6,691.5 571.2,741.6 "
+   id="polygon40" />
+		<path
+   class="st3"
+   d="M 677.8,626.3 C 557.4,719.1 384.5,696.7 291.7,576.3 198.9,455.9 221.3,283 341.7,190.2"
+   id="path42" />
+		<line
+   class="st4"
+   x1="666.40002"
+   y1="611.5"
+   x2="690.29999"
+   y2="642.5"
+   id="line44" />
+		<line
+   class="st4"
+   x1="329.70001"
+   y1="174.60001"
+   x2="353.60001"
+   y2="205.7"
+   id="line46" />
+		<path
+   class="st5"
+   d="M 647.7,785.4 H 380.5 v -2.8 c 0,-22.6 18.3,-40.9 40.9,-40.9 h 185.4 c 22.6,0 40.9,18.3 40.9,40.9 z"
+   id="path48" />
+	</g>
+</g>
+</svg>
