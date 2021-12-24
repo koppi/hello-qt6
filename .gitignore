@@ -1,2 +1,7 @@
 bin
 build
+
+hello-qt5-build-deps_*.deb
+hello-qt5-build-deps_*.buildinfo
+hello-qt5-build-deps_*.changes
+hello-qt5.pro.user
