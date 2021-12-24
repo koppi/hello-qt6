@@ -12,6 +12,11 @@ sudo dpkg -i ../hello-qt5*deb
 sudo apt -f install
 ```
 
+Clean the repository the Debian way as follows:
+```bash
+dpkg-buildpackage -rfakeroot -Tclean
+```
+
 ## Features
 
 * With Debian packaging and desktop integration.
