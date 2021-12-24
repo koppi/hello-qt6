@@ -16,7 +16,7 @@ sudo apt -f install
 
 * With Debian packaging and desktop integration.
 
-##License
+## License
 
 This application is under GNU GPLv3. Please read the COPYING.txt file for further terms and conditions of the license.
 
