@@ -7,6 +7,6 @@ Exec=/usr/bin/hello-qt5 %F
 Comment=Hello world from qt5
 Icon=/usr/share/pixmaps/hello-qt5.ico
 StartupNotify=false
-Categories=Development;GTK;GNOME;
+Categories=GTK;GNOME;
 Keywords=programming;
 GenericName=Hello world from qt5
