@@ -1,6 +1,6 @@
 # hello world in qt5
 
-![hello-qt5-b25d33f.png](https://raw.githubusercontent.com/koppi/main/meta/hello-qt5-b25d33f.png)
+![hello-qt5-b25d33f.png](https://raw.githubusercontent.com/koppi/hello-qt5/main/meta/hello-qt5-b25d33f.png)
 
 [![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
 
