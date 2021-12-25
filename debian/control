@@ -4,11 +4,7 @@ Priority: optional
 Maintainer: Jakob Flierl <jakob.flierl@gmail.com>
 Uploaders: Jakob Flierl <jakob.flierl@gmail.com>
 Standards-Version: 4.3.0
-Build-Depends: debhelper-compat (= 13),
-               qtbase5-dev,
-               qtbase5-dev-tools,
-               qt5-qmake,
-               qtchooser
+Build-Depends: debhelper (>= 9), qtbase5-dev, qtbase5-dev-tools, qt5-qmake, qtchooser
 Homepage: https://github.com/koppi/hello-qt5
 Vcs-Git: git://github.com/koppi/hello-qt5.git
 Vcs-Browser: https://github.com/koppi/hello-qt5
