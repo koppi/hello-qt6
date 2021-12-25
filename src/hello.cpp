@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 
     QFont font ("Courier");
     
-    QPushButton *button = new QPushButton("Hello world!", &window);
+    QPushButton *button = new QPushButton("Hello, world!", &window);
     button->setGeometry(10, 10, 180, 30);
     button->setToolTip("A tooltip");
     button->setFont(font);
