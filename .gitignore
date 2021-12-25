@@ -5,3 +5,14 @@ hello-qt5-build-deps_*.deb
 hello-qt5-build-deps_*.buildinfo
 hello-qt5-build-deps_*.changes
 hello-qt5.pro.user
+
+.qmake.stash
+Makefile
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/hello-qt5.postinst.debhelper
+debian/hello-qt5.postrm.debhelper
+debian/hello-qt5.substvars
+debian/hello-qt5/
+src/Makefile
