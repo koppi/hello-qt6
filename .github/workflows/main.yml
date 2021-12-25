@@ -16,7 +16,7 @@ jobs:
     
     - name: install packages required for the build
       run: |
-        sudo apt -qq -y install -qq devscripts equivs lintian qtbase5-dev qtbase5-dev-tools qt5-qmake qtchooser
+        sudo apt -qq -y install -qq devscripts equivs lintian
         mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
         
     - name: build the hello-qt5 package
