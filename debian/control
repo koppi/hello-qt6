@@ -1,10 +1,10 @@
 Source: hello-qt5
-Section: editors
+Section: devel
 Priority: optional
 Maintainer: Jakob Flierl <jakob.flierl@gmail.com>
 Uploaders: Jakob Flierl <jakob.flierl@gmail.com>
-Build-Depends: debhelper (>= 9), qtbase5-dev, qtbase5-dev-tools, qt5-qmake, libqt5gui5
-Standards-Version: 3.9.6
+Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 9)
 Homepage: https://github.com/koppi/hello-qt5
 Vcs-Git: git://github.com/koppi/hello-qt5.git
 Vcs-Browser: https://github.com/koppi/hello-qt5
@@ -13,5 +13,8 @@ Vcs-Browser: https://github.com/koppi/hello-qt5
 Package: hello-qt5
 Architecture: any
 Depends: libqt5gui5, libqt5widgets5, libqt5core5a, ${shlibs:Depends}, ${misc:Depends}
-Description: qt5 hello world
- Hello world in qt5.
+Description: qt5 hello world example package
+ The qt5 hello world program produces a familiar, friendly greeting.  It
+ shows a push button with the text 'Hello, World!'.
+ .
+ Seriously, though: this is an example of how to do a Debian package.
