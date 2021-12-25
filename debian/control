@@ -4,19 +4,17 @@ Priority: optional
 Maintainer: Jakob Flierl <jakob.flierl@gmail.com>
 Uploaders: Jakob Flierl <jakob.flierl@gmail.com>
 Standards-Version: 4.3.0
-Build-Depends: debhelper-compat (= 9)
-Homepage: https://github.com/koppi/hello-qt5
-Vcs-Git: git://github.com/koppi/hello-qt5.git
-Vcs-Browser: https://github.com/koppi/hello-qt5
-
-
-Package: hello-qt5
-Architecture: any
 Build-Depends: debhelper-compat (= 13),
                qtbase5-dev,
                qtbase5-dev-tools,
                qt5-qmake,
                qtchooser
+Homepage: https://github.com/koppi/hello-qt5
+Vcs-Git: git://github.com/koppi/hello-qt5.git
+Vcs-Browser: https://github.com/koppi/hello-qt5
+
+Package: hello-qt5
+Architecture: any
 Depends: libqt5gui5, libqt5widgets5, libqt5core5a, ${shlibs:Depends}, ${misc:Depends}
 Description: qt5 hello world example package
  The qt5 hello world program produces a familiar, friendly greeting.  It
