@@ -1,0 +1,51 @@
+name: CI for release tags
+
+on:
+  push:
+    tags:
+      - "v*" # matches v1.0.1, v1.2, v2, etc
+
+jobs:
+  once:
+    name: Create single release for all builds
+    runs-on: ubuntu-latest
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+    steps:
+      - name: Create a release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: true
+          prerelease: true
+  build:
+    name: Create cross-platform release builds, tag and upload binaries
+    needs: once
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          submodules: true
+
+      - name: install packages required for the build
+        run: |
+          sudo apt -qq -y install -qq devscripts equivs lintian
+          mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
+
+      - name: build the hello-qt5 package
+        run: dpkg-buildpackage -b -rfakeroot -us -uc
+        
+      - name: Upload Artifact GitHub Action
+        uses: actions/upload-artifact@v2
+        with: 
+          name: assets-for-download
+          path: ../hello-qt5*deb
+
