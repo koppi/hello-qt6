@@ -6,11 +6,14 @@
 
 ## Installation
 
-Clone, build and run hello-qt5 as follows:
+### Debian / Ubuntu
+
+Clone, build and run ```hello-qt5``` as follows:
 ```bash
-sudo apt-get install gh devscripts qtbase5-dev qtbase5-dev-tools qt5-qmake 
+sudo apt -qq -y install -qq gh devscripts equivs lintian
 gh repo clone koppi/hello-qt5
 cd hello-qt5
+mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
 dpkg-buildpackage -b -rfakeroot -us -uc
 sudo dpkg -i ../hello-qt5*deb
 sudo apt -f install
