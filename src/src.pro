@@ -23,4 +23,21 @@ win32:OBJECTS_DIR = ../build/o/win32
 macx:OBJECTS_DIR = ../build/o/mac
 
 # Input
-SOURCES += hello.cpp
+SOURCES += hello.cpp \
+    mainwindow.cpp
+
+FORMS += \
+    mainwindow.ui
+
+HEADERS += \
+    mainwindow.h
+
+TRANSLATIONS = languages/en.ts  languages/de.ts
+
+DISTFILES += \
+    languages/de.ts \
+    languages/en.ts \
+    README.md
+
+RESOURCES += \
+    res/translation.qrc

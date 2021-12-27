@@ -1,23 +1,11 @@
 #include <QApplication>
-#include <QPushButton>
+#include "mainwindow.h"
 
 int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
+    QApplication app(argc, argv);
 
-    QWidget window;
-    window.setFixedSize(200, 50);
-
-    QFont font ("Courier");
-    
-    QPushButton *button = new QPushButton("Hello, world!", &window);
-    button->setGeometry(10, 10, 180, 30);
-    button->setToolTip("A tooltip");
-    button->setFont(font);
-
-    QObject::connect(button, SIGNAL (clicked()),
-                     QApplication::instance(), SLOT (quit()));
-    
+    MainWindow window;
     window.show();
     
-    return a.exec();
+    return app.exec();
 }
