@@ -11,9 +11,17 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 ![GitHub contributors](https://img.shields.io/github/contributors/koppi/hello-qt5)
 [![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
 
+## Insights
+
+[![GitHub issues](https://img.shields.io/github/issues/koppi/hello-qt5)](https://github.com/koppi/hello-qt5/issues)
+[![GitHub forks](https://img.shields.io/github/forks/koppi/hello-qt5)](https://github.com/koppi/hello-qt5/network)
+[![GitHub stars](https://img.shields.io/github/stars/koppi/hello-qt5)](https://github.com/koppi/hello-qt5/stargazers)
+[![GitHub license](https://img.shields.io/github/license/koppi/hello-qt5)](https://github.com/koppi/hello-qt5/blob/main/LICENSE)
+
 ## Community
 
 [![Join the chat at https://gitter.im/koppi/hello-qt5](https://badges.gitter.im/koppi/hello-qt5.svg)](https://gitter.im/koppi/hello-qt5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fkoppi%2Fhello-qt5)
 
 ## Testing locally
 
