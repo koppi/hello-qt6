@@ -32,12 +32,13 @@ FORMS += \
 HEADERS += \
     mainwindow.h
 
-TRANSLATIONS = languages/en.ts  languages/de.ts languages/ca.ts
+TRANSLATIONS = languages/en.ts  languages/de.ts languages/ca.ts languages/da.ts
 
 DISTFILES += \
     languages/de.ts \
     languages/en.ts \
     languages/ca.ts \
+    languages/da.ts \
     README.md
 
 RESOURCES += \
