@@ -1,10 +1,21 @@
 # hello world in qt5
 
+Contributions in all forms (code, bug reports, community engagement, localization, etc) are warmly welcomed.
+
 ![hello-qt5-b25d33f.png](https://raw.githubusercontent.com/koppi/hello-qt5/main/meta/hello-qt5-b25d33f.png)
 
-[![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml) [![Join the chat at https://gitter.im/koppi/hello-qt5](https://badges.gitter.im/koppi/hello-qt5.svg)](https://gitter.im/koppi/hello-qt5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Development activity
 
-## Installation
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koppi/hello-qt5)
+![GitHub last commit](https://img.shields.io/github/last-commit/koppi/hello-qt5)
+![GitHub contributors](https://img.shields.io/github/contributors/koppi/hello-qt5)
+[![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
+
+## Community
+
+[![Join the chat at https://gitter.im/koppi/hello-qt5](https://badges.gitter.im/koppi/hello-qt5.svg)](https://gitter.im/koppi/hello-qt5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+## Testing locally
 
 ### Debian / Ubuntu
 
@@ -35,3 +46,8 @@ This application is licensed under GNU GPLv2. Please read the [LICENSE](LICENSE)
 ## Author
 
 * **Jakob Flierl** - [koppi](https://github.com/koppi)
+
+## Contributors
+
+* 
+
