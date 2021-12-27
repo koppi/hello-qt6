@@ -29,7 +29,7 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 
 Clone, build and run ```hello-qt5``` as follows:
 ```bash
-sudo apt -qq -y install -qq gh devscripts equivs lintian
+sudo apt -qq -y install -qq gh devscripts equivs
 gh repo clone koppi/hello-qt5
 cd hello-qt5
 mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
