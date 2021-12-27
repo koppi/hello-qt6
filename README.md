@@ -2,7 +2,7 @@
 
 Contributions in all forms (code, bug reports, community engagement, localization, etc) are warmly welcomed.
 
-![hello-qt5-b25d33f.png](https://raw.githubusercontent.com/koppi/hello-qt5/main/meta/hello-qt5-b25d33f.png)
+![hello-qt5-869f3ba.png](https://raw.githubusercontent.com/koppi/hello-qt5/main/meta/hello-qt5-869f3ba.png)
 
 ## Development activity
 
