@@ -41,7 +41,7 @@ dpkg-buildpackage -rfakeroot -Tclean
 
 ## License
 
-This application is licensed under GNU GPLv2. Please read the [LICENSE](LICENSE) file for further terms and conditions of the license.
+This application is licensed under [GNU GPLv2](LICENSE).
 
 ## Author
 
