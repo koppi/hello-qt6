@@ -21,7 +21,7 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 ## Community
 
 [![Join the chat at https://gitter.im/koppi/hello-qt5](https://badges.gitter.im/koppi/hello-qt5.svg)](https://gitter.im/koppi/hello-qt5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fkoppi%2Fhello-qt5)
+![Twitter Follow](https://img.shields.io/twitter/follow/koppi2342?label=follow&style=social)
 
 ## Testing locally
 
