@@ -38,7 +38,8 @@ TRANSLATIONS = \
     languages/ca.ts \
     languages/da.ts \
     languages/el.ts \
-    languages/eo.ts
+    languages/eo.ts \
+    languages/es.ts
 
 DISTFILES += \
     languages/de.ts \
@@ -47,6 +48,7 @@ DISTFILES += \
     languages/da.ts \
     languages/el.ts \
     languages/eo.ts \
+    languages/es.ts \
     README.md
 
 RESOURCES += \
