@@ -9,17 +9,17 @@
         <translation>Hauptfenster</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="21"/>
+        <location filename="../mainwindow.ui" line="23"/>
         <source>Hello, world!</source>
         <translation>Hallo, Welt!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="38"/>
+        <location filename="../mainwindow.ui" line="55"/>
         <source>&amp;Language</source>
         <translation>&amp;Sprache</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="61"/>
+        <location filename="../mainwindow.cpp" line="72"/>
         <source>Current language changed to %1.</source>
         <translation>Sprache auf %1 eingestellt.</translation>
     </message>
