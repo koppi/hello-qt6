@@ -45,11 +45,12 @@ dpkg-buildpackage -rfakeroot -Tclean
 
 ## Features
 
-* With Debian packaging and desktop integration.
+* With Debian packaging and desktop integration,
+* [multi language](https://wiki.qt.io/How_to_create_a_multi_language_application) application.
 
 ## License
 
-This application is licensed under [GNU GPLv2](LICENSE).
+```hello-qt5``` is licensed under [GNU GPLv2](LICENSE).
 
 ## Author
 
