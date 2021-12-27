@@ -5,5 +5,6 @@
         <file>../languages/ca.qm</file>
         <file>../languages/da.qm</file>
         <file>../languages/el.qm</file>
+        <file>../languages/eo.qm</file>
     </qresource>
 </RCC>
