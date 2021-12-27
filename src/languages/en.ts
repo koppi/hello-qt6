@@ -16,12 +16,12 @@
     <message>
         <location filename="../mainwindow.ui" line="38"/>
         <source>&amp;Language</source>
-        <translation>&amp;Language</translation>
+        <translation type="unfinished">&amp;Language</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="61"/>
         <source>Current language changed to %1.</source>
-        <translation>Current language changed to %1.</translation>
+        <translation type="unfinished">Language changed to %1.</translation>
     </message>
 </context>
 </TS>
