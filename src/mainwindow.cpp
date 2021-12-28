@@ -1,4 +1,5 @@
 #include <QDir>
+#include <QIcon>
 #include <QDebug>
 
 #include "mainwindow.h"
@@ -109,8 +110,11 @@ void MainWindow::createLanguageMenu(void) {
         locale.truncate(locale.lastIndexOf('.')); // "de"
 
         QString lang = QLocale::languageToString(QLocale(locale).language());
+        QString iconName = QString(":/resource/icons/%1.png").arg(locale);
 
-        QAction *action = new QAction(lang, this);
+        QIcon icon(iconName);
+
+        QAction *action = new QAction(icon, lang, this);
         action->setCheckable(true);
         action->setData(QString(":/resource/languages/%1").arg(locale));
 

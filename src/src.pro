@@ -53,4 +53,5 @@ DISTFILES += \
     README.md
 
 RESOURCES += \
-    res/translation.qrc
+    res/translation.qrc \
+    res/icons.qrc
