@@ -9,7 +9,7 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koppi/hello-qt5)
 ![GitHub last commit](https://img.shields.io/github/last-commit/koppi/hello-qt5)
 ![GitHub contributors](https://img.shields.io/github/contributors/koppi/hello-qt5)
-[![Makefile CI](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
+[![Ubuntu](https://github.com/koppi/hello-qt5/actions/workflows/main.yml/badge.svg)](https://github.com/koppi/hello-qt5/actions/workflows/main.yml)
 
 ## Insights
 
