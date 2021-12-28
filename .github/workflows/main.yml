@@ -16,11 +16,12 @@ jobs:
     
     - name: install packages required for the build
       run: |
+        sudo apt update
         sudo DEBIAN_FRONTEND=noninteractive  apt -qq -y install -qq devscripts equivs
         mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
         
-    - name: build the hello-qt5 package
+    - name: build deb package
       run: dpkg-buildpackage -b -rfakeroot -us -uc
       
-    - name: install the hello-qt5 package
+    - name: install deb package
       run: sudo dpkg -i ../hello-qt5*deb
