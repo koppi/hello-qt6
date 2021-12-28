@@ -37,13 +37,15 @@ jobs:
 
       - name: install packages required for the build
         run: |
-          sudo apt -qq -y install -qq devscripts equivs lintian
+          sudo apt update
+          sudo apt full-upgrade -y
+          sudo DEBIAN_FRONTEND=noninteractive apt -qq -y install -qq devscripts equivs
           mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
 
-      - name: build the hello-qt5 package
+      - name: build deb package
         run: dpkg-buildpackage -b -rfakeroot -us -uc
         
-      - name: Upload binaries to release
+      - name: Upload deb package to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
