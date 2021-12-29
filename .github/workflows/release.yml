@@ -39,7 +39,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt full-upgrade -y
-          sudo DEBIAN_FRONTEND=noninteractive apt -qq -y install -qq devscripts equivs
+          sudo DEBIAN_FRONTEND=noninteractive apt -qq -y install devscripts equivs
           mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
 
       - name: build deb package
