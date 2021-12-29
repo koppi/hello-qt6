@@ -18,7 +18,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt full-upgrade -y
-        sudo DEBIAN_FRONTEND=noninteractive  apt -qq -y install devscripts equivs
+        sudo DEBIAN_FRONTEND=noninteractive  apt -qq -y install devscripts equivs lintian
         mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
         
     - name: build deb package
@@ -26,3 +26,7 @@ jobs:
       
     - name: install deb package
       run: sudo dpkg -i ../hello-qt5*deb
+
+    - name: run lintian
+      run: lintian ../hello-qt5*deb | lintian-info
+
