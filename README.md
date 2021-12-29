@@ -21,7 +21,6 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 ## Community
 
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://koppi.zulipchat.com/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/koppi2342?label=follow&style=social)](https://twitter.com/koppi2342)
 
 ## Testing locally
 
