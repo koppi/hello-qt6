@@ -22,7 +22,6 @@ jobs:
           submodules: false
 
       - name: install packages required for the build
-        if: matrix.os == 'ubuntu-latest'
         run: |
           sudo apt update
           sudo apt full-upgrade -y
@@ -30,12 +29,10 @@ jobs:
           mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
 
       - name: build deb package
-        if: matrix.os == 'ubuntu-latest'
         run: dpkg-buildpackage -b -rfakeroot -us -uc
         
       - name: Upload deb package to release
         needs: [buildLinux]
-        if: matrix.os == 'ubuntu-latest'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
