@@ -6,8 +6,8 @@ on:
       - "v*" # matches v1.0.1, v1.2, v2, etc
 
 jobs:
-  build:
-    name: Create cross-platform release builds, tag and upload binaries
+  buildLinux:
+    name: Build ${{ matrix.ubuntu }}
     needs: once
     runs-on: ${{ matrix.os }}
     strategy:
@@ -15,7 +15,11 @@ jobs:
         os: [ubuntu-latest]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+      - uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
+          submodules: false
 
       - name: install packages required for the build
         if: matrix.os == 'ubuntu-latest'
