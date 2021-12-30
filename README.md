@@ -22,6 +22,11 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://koppi.zulipchat.com/)
 
+## TODO
+- [ ] Automatic MacOS release
+- [ ] Automatic Windows release
+- [ ] Localization for 42 more languages
+
 ## Testing locally
 
 ### Debian / Ubuntu
@@ -41,6 +46,14 @@ Clean the repository the Debian way as follows:
 ```bash
 dpkg-buildpackage -rfakeroot -Tclean
 ```
+
+### MacOS
+
+Please contribute.
+
+### Windows
+
+Please contribute.
 
 ## Features
 
