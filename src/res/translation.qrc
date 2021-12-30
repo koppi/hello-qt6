@@ -8,5 +8,6 @@
         <file>../languages/el.qm</file>
         <file>../languages/eo.qm</file>
         <file>../languages/es.qm</file>
+        <file>../languages/et.qm</file>
     </qresource>
 </RCC>

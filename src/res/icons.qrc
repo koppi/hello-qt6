@@ -8,5 +8,6 @@
         <file>../icons/el.png</file>
         <file>../icons/eo.png</file>
         <file>../icons/es.png</file>
+        <file>../icons/et.png</file>
     </qresource>
 </RCC>
