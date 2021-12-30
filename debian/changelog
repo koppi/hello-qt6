@@ -1,4 +1,4 @@
-hello-qt5 (0.0.14) UNRELEASED; urgency=medium
+hello-qt5 (0.0.15) UNRELEASED; urgency=medium
 
   [ Jakob Flierl ]
   * Initial release. (Closes: #1) 
@@ -154,5 +154,6 @@ hello-qt5 (0.0.14) UNRELEASED; urgency=medium
   * Try to fix the release workflow.
   * Try to fix the release workflow.
   * Try to fix the release workflow.
+  * Try to fix the release workflow.
 
- -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 10:28:56 +0100
+ -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 10:33:19 +0100
