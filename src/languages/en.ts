@@ -19,7 +19,7 @@
         <translation>&amp;Language</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="74"/>
+        <location filename="../mainwindow.cpp" line="75"/>
         <source>Current language changed to %1.</source>
         <translation>Language changed to %1.</translation>
     </message>

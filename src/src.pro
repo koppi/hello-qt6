@@ -34,6 +34,7 @@ HEADERS += \
     mainwindow.h
 
 TRANSLATIONS = \
+    languages/bg.ts \
     languages/en.ts \
     languages/de.ts \
     languages/ca.ts \
@@ -43,6 +44,7 @@ TRANSLATIONS = \
     languages/es.ts
 
 DISTFILES += \
+    languages/bg.ts \
     languages/de.ts \
     languages/en.ts \
     languages/ca.ts \

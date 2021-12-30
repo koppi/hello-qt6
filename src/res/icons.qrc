@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/resource">
+        <file>../icons/bg.png</file>
         <file>../icons/de.png</file>
         <file>../icons/en.png</file>
         <file>../icons/ca.png</file>

@@ -19,7 +19,7 @@
         <translation>&amp;Γλώσσα</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="74"/>
+        <location filename="../mainwindow.cpp" line="75"/>
         <source>Current language changed to %1.</source>
         <translation>Η τρέχουσα γλώσσα άλλαξε σε %1.</translation>
     </message>
