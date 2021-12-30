@@ -1,4 +1,4 @@
-name: CI for release tags
+name: Release tags
 
 on:
   push:
@@ -20,8 +20,8 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          draft: true
-          prerelease: true
+          draft: false
+          prerelease: false
   build:
     name: Create cross-platform release builds, tag and upload binaries
     needs: once
