@@ -149,5 +149,6 @@ hello-qt5 (0.0.10) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Try to fix the release workflow.
 
- -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 09:28:37 +0100
+ -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 09:45:21 +0100
