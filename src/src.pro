@@ -42,7 +42,8 @@ TRANSLATIONS = \
     languages/el.ts \
     languages/eo.ts \
     languages/es.ts \
-    languages/et.ts
+    languages/et.ts \
+    languages/eu.ts
 
 DISTFILES += \
     languages/bg.ts \
@@ -54,6 +55,7 @@ DISTFILES += \
     languages/eo.ts \
     languages/es.ts \
     languages/et.ts \
+    languages/eu.ts \
     README.md
 
 RESOURCES += \
