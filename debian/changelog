@@ -1,5 +1,150 @@
-hello-qt5 (0.0.1ubuntu1) UNRELEASED; urgency=medium
+hello-qt5 (0.0.8) UNRELEASED; urgency=medium
 
+  [ Jakob Flierl ]
   * Initial release. (Closes: #1) 
+  * Add actual source code.
+  * Create main.yml
+  * Add Makefile CI badge.
+  * Update categories.
+  * Update main.yml
+  * Add screenshot as of b25d33f.
+  * Fix screenshot link.
+  * Fix spelling of program name.
+  * Fix spelling of program name.
+  * Create FUNDING.yml
+  * Fix hello world string.
+  * Ignore Debian build artefacts.
 
- -- Jakob Flierl <jakob.flierl@gmail.com>  Fri, 24 Dec 2021 18:33:11 +0100
+  [ The Gitter Badger ]
+  * Add Gitter badge
+
+  [ Jakob Flierl ]
+  * Ignore auto-generated files.
+  * Debianization.
+  * Debianization.
+  * Makefile CI.
+  * Makefile CI.
+  * Debianization.
+  * Debianization.
+  * Debianization.
+  * Debianization.
+  * Update README.md
+  * Compat 9 to 10.
+  * Ignore more auto-generated files.
+  * Create LICENSE
+  * Fix typo.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Fix LICENSE.
+  * Add badges.
+  * Tidy license section.
+  * Add more badges.
+  * Twitter badge.
+  * Twitter badge.
+  * Twitter badge.
+  * Remove lintian
+  * Remove lintian.
+  * Translation working on Ubuntu.
+  * Tidy translation.
+  * Add screenshot as of 869f3ba.
+  * Add link to Qt's multi language HOWTO.
+  * [language] add catalan.
+  * Fix c++ warning: enumeration value not handled in switch [-Wswitch].
+  * [language] add danish.
+  * [language] add greek.
+  * [language] fix catalan.
+  * [language] add esperanto.
+  * [language] add spanish.
+  * Fix Categories.
+  * Remove debian/menu as per: https://lintian.debian.org/tags/command-in-menu-file-and-desktop-file .
+  * Rename action 'Makefile CI' to 'Ubuntu'.
+  * remove sudo and choose debian frontend non-interactive.
+  * add sudo.
+  * add 'sudo apt update'.
+  * Add 'sudo apt full-upgrade -y'.
+  * Update Ubuntu installation before creating a release.
+  * Add '-std=c++0x' to CXXFLAGS.
+  * Add icons for current languages.
+  * Remove duplicate -qq option.
+  * Remove duplicate -qq option.
+  * Remove duplicate -qq option.
+  * lintian added back.
+  * Zulip chat.
+  * Remove Twitter badge.
+  * [language] fix catalan flag.
+  * Add actual source code.
+  * Create main.yml
+  * Add Makefile CI badge.
+  * Update categories.
+  * Update main.yml
+  * Add screenshot as of b25d33f.
+  * Fix screenshot link.
+  * Fix spelling of program name.
+  * Fix spelling of program name.
+  * Create FUNDING.yml
+  * Fix hello world string.
+  * Ignore Debian build artefacts.
+
+  [ The Gitter Badger ]
+  * Add Gitter badge
+
+  [ Jakob Flierl ]
+  * Ignore auto-generated files.
+  * Debianization.
+  * Debianization.
+  * Makefile CI.
+  * Makefile CI.
+  * Debianization.
+  * Debianization.
+  * Debianization.
+  * Debianization.
+  * Update README.md
+  * Compat 9 to 10.
+  * Ignore more auto-generated files.
+  * Create LICENSE
+  * Fix typo.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Experimential release yml.
+  * Fix LICENSE.
+  * Add badges.
+  * Tidy license section.
+  * Add more badges.
+  * Twitter badge.
+  * Twitter badge.
+  * Twitter badge.
+  * Remove lintian
+  * Remove lintian.
+  * Translation working on Ubuntu.
+  * Tidy translation.
+  * Add screenshot as of 869f3ba.
+  * Add link to Qt's multi language HOWTO.
+  * [language] add catalan.
+  * Fix c++ warning: enumeration value not handled in switch [-Wswitch].
+  * [language] add danish.
+  * [language] add greek.
+  * [language] fix catalan.
+  * [language] add esperanto.
+  * [language] add spanish.
+  * Fix Categories.
+  * Remove debian/menu as per: https://lintian.debian.org/tags/command-in-menu-file-and-desktop-file .
+  * Rename action 'Makefile CI' to 'Ubuntu'.
+  * remove sudo and choose debian frontend non-interactive.
+  * add sudo.
+  * add 'sudo apt update'.
+  * Add 'sudo apt full-upgrade -y'.
+  * Update Ubuntu installation before creating a release.
+  * Add '-std=c++0x' to CXXFLAGS.
+  * Add icons for current languages.
+  * Remove duplicate -qq option.
+  * Remove duplicate -qq option.
+  * Remove duplicate -qq option.
+  * lintian added back.
+  * Zulip chat.
+  * Remove Twitter badge.
+  * [language] fix catalan flag.
+
+ -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 09:19:51 +0100
