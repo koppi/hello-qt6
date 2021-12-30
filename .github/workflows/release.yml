@@ -33,13 +33,12 @@ jobs:
 
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
         with:
           fetch-depth: 0
           submodules: false
 
       - name: install packages required for the build
-        if: runner.os == 'Linux'
         run: |
           sudo apt update
           sudo apt full-upgrade -y
@@ -47,11 +46,9 @@ jobs:
           mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
 
       - name: build deb package
-        if: runner.os == 'Linux'
         run: dpkg-buildpackage -b -rfakeroot -us -uc
-        
+
       - name: Upload deb package to release
-        needs: [buildLinux]
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
