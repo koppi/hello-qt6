@@ -1,4 +1,4 @@
-hello-qt5 (0.0.9) UNRELEASED; urgency=medium
+hello-qt5 (0.0.10) UNRELEASED; urgency=medium
 
   [ Jakob Flierl ]
   * Initial release. (Closes: #1) 
@@ -147,5 +147,7 @@ hello-qt5 (0.0.9) UNRELEASED; urgency=medium
   * Remove Twitter badge.
   * [language] fix catalan flag.
   * UNRELEASED
+  * UNRELEASED
+  * UNRELEASED
 
- -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 09:26:06 +0100
+ -- Jakob Flierl <jakob.flierl@gmail.com>  Thu, 30 Dec 2021 09:28:37 +0100
