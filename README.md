@@ -29,7 +29,7 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 
 ## Testing locally
 
-### Ubuntu 21.10
+### Ubuntu 21.10 / Debian 11.2.0
 
 Clone, build and run ```hello-qt5``` as follows:
 ```bash
