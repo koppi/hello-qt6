@@ -1,6 +1,7 @@
 #CONFIG += static
 
-QMAKE_CXXFLAGS += -std=c++0x
+#QMAKE_CXXFLAGS += -std=c++0x
+QMAKE_CXXFLAGS += -std=c++17
 #QMAKE_LFLAGS += -static -static-libgcc
 #QMAKE_CFLAGS_RELEASE -= -O2
 #QMAKE_CFLAGS_RELEASE += -Os -momit-leaf-frame-pointer
