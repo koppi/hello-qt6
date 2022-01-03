@@ -29,11 +29,11 @@ Contributions in all forms (code, bug reports, community engagement, localizatio
 
 ## Testing locally
 
-### Debian / Ubuntu
+### Ubuntu 21.10 / Debian 11.2.0
 
 Clone, build and run ```hello-qt5``` as follows:
 ```bash
-sudo apt -qq -y install gh devscripts equivs
+sudo apt -qq -y install devscripts equivs
 gh repo clone koppi/hello-qt5
 cd hello-qt5
 mk-build-deps -i -s sudo -t "apt --yes --no-install-recommends"
