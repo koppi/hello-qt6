@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hello-qt6
+Source: https://github.com/koppi/hello-qt6
+
+Files: *
+Copyright: 2021 - 2025 Jakob Flierl <jakob.flierl@gmail.com>
+License: GPL-2.0
+
+Files: debian/*
+Copyright: 2021 - 2025 Jakob Flierl <jakob.flierl@gmail.com>
+License: GPL-2.0

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../../resources/graphics/hello-qt6.ico</file>
+    <file>../../resources/graphics/hello-qt6.png</file>
+    <file>../../resources/desktop/com.github.hello-qt6.desktop</file>
+  </qresource>
+</RCC>

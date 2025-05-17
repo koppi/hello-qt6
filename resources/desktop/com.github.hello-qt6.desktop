@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Exec=hello-qt6 %f
+X-GNOME-Autostart-Delay=15
+X-LXQt-Need-Tray=true
+Name=hello-qt6
+GenericName=Hello world program
+GenericName[de]=Hallo Welt Programm
+Comment=hello-qt6
+Icon=hello-qt6
+Terminal=false
+Categories=Qt;
+StartupWMClass=hello-qt6

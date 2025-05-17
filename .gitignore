@@ -1,0 +1,52 @@
+bin
+build
+
+hello-qt5-build-deps_*.deb
+hello-qt5-build-deps_*.buildinfo
+hello-qt5-build-deps_*.changes
+hello-qt5.pro.user
+
+.qmake.stash
+Makefile
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/hello-qt6.postinst.debhelper
+debian/hello-qt6.postrm.debhelper
+debian/hello-qt6.substvars
+debian/hello-qt6/
+src/Makefile
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+
+# QtCreator
+
+*.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Vim
+*.swp
+
+LANGUAGES
+src/AppDir/
+src/hello-qt6
+src/mainwindow.o
+src/hello.o
+src/moc/
+src/moc_mainwindow.o
+src/rcc/
+src/usr/

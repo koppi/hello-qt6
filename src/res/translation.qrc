@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>../languages/bg.qm</file>
+        <file>../languages/de.qm</file>
+        <file>../languages/en.qm</file>
+        <file>../languages/ca.qm</file>
+        <file>../languages/da.qm</file>
+        <file>../languages/el.qm</file>
+        <file>../languages/eo.qm</file>
+        <file>../languages/es.qm</file>
+        <file>../languages/et.qm</file>
+        <file>../languages/eu.qm</file>
+        <file>../languages/fa.qm</file>
+        <file>../languages/fi.qm</file>
+        <file>../languages/fr.qm</file>
+        <file>../languages/ga.qm</file>
+        <file>../languages/gl.qm</file>
+        <file>../languages/he.qm</file>
+        <file>../languages/hr.qm</file>
+        <file>../languages/hu.qm</file>
+        <file>../languages/id.qm</file>
+        <file>../languages/it.qm</file>
+        <file>../languages/ja.qm</file>
+        <file>../languages/ka.qm</file>
+        <file>../languages/ko.qm</file>
+        <file>../languages/lv.qm</file>
+        <file>../languages/ms.qm</file>
+        <file>../languages/nb.qm</file>
+        <file>../languages/nl.qm</file>
+        <file>../languages/nn.qm</file>
+        <file>../languages/pl.qm</file>
+        <file>../languages/pt.qm</file>
+        <file>../languages/ro.qm</file>
+        <file>../languages/ru.qm</file>
+        <file>../languages/sk.qm</file>
+        <file>../languages/sl.qm</file>
+        <file>../languages/sr.qm</file>
+        <file>../languages/sv.qm</file>
+        <file>../languages/th.qm</file>
+        <file>../languages/tr.qm</file>
+        <file>../languages/uk.qm</file>
+        <file>../languages/vi.qm</file>
+        <file>../languages/zh_CN.qm</file>
+        <file>../languages/zh_TW.qm</file>
+    </qresource>
+</RCC>

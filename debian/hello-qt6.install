@@ -1,0 +1,4 @@
+resources/desktop/com.github.hello-qt6.desktop usr/share/applications
+resources/graphics/hello-qt6.ico usr/share/pixmaps
+resources/graphics/hello-qt6.png usr/share/pixmaps
+resources/graphics/hello-qt6.svg usr/share/pixmaps

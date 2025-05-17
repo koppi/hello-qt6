@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021-2025 Jakob Flierl <jakob.flierl@gmail.com> -->
+<component type="desktop-application">
+  <id>com.github.hello-qt6.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <name>hello-qt6</name>
+  <update_contact>jakob.flierl_AT_gmail.com</update_contact>
+  <summary>hello-qt6</summary>
+  ​<translation type="qt">hello-qt6</translation>
+  <description>
+    <p>
+      Hello world program developed on top of the Qt library.
+    </p>
+  </description>
+  <launchable type="desktop-id">com.github.hello-qt6.desktop</launchable>
+  <screenshots>
+  <screenshot type="default">
+      <caption>Windows version</caption>
+      <image>https://github.com/koppi/hello-qt6/blob/master/resources/docs/images/hello-qt6-window.png?raw=true</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/koppi/hello-qt6</url>
+  <url type="bugtracker">https://github.com/koppi/hello-qt6/issues</url>
+  <url type="translate">https://www.transifex.com/koppi/hello-qt6</url>
+  <url type="donation">https://github.com/sponsors/koppi</url>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="" date="2025-05-17"/>
+  </releases>
+  <content_rating type="oars-1.0">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+  <provides>
+    <binary>hello-qt6</binary>
+  </provides>
+</component>

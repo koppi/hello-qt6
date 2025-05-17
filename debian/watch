@@ -1,0 +1,2 @@
+version=3
+https://github.com/koppi/hello-qt6/tags .*/archive/[a-z](\d\S*)\.tar\.gz

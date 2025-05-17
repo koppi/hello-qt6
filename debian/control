@@ -1,0 +1,17 @@
+Source: hello-qt6
+Section: devel
+Priority: optional
+Maintainer: Jakob Flierl <jakob.flierl@gmail.com>
+Uploaders: Jakob Flierl <jakob.flierl@gmail.com>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 9), qt6-base-dev (>= 6.8.3), qt6-base-dev-tools (>= 6.8.3), qmake6 (>= 6.8.3), qtchooser (>= 66)
+Homepage: https://github.com/koppi/hello-qt6
+Vcs-Git: git://github.com/koppi/hello-qt6.git
+Vcs-Browser: https://github.com/koppi/hello-qt6
+
+Package: hello-qt6
+Architecture: any
+Depends: libqt6widgets6, libqt6core6t64, ${shlibs:Depends}, ${misc:Depends}
+Description: hello world qt6 template
+ hello-qt6 produces a familiar, friendly greeting. It shows a push button with
+ the text 'Hello, World!'.

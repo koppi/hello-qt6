@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>../icons/bg.png</file>
+        <file>../icons/de.png</file>
+        <file>../icons/en.png</file>
+        <file>../icons/ca.png</file>
+        <file>../icons/da.png</file>
+        <file>../icons/el.png</file>
+        <file>../icons/eo.png</file>
+        <file>../icons/es.png</file>
+        <file>../icons/et.png</file>
+        <file>../icons/eu.png</file>
+        <file>../icons/fa.png</file>
+        <file>../icons/fi.png</file>
+        <file>../icons/fr.png</file>
+        <file>../icons/ga.png</file>
+        <file>../icons/gl.png</file>
+        <file>../icons/he.png</file>
+        <file>../icons/hr.png</file>
+        <file>../icons/hu.png</file>
+        <file>../icons/id.png</file>
+        <file>../icons/it.png</file>
+        <file>../icons/ja.png</file>
+        <file>../icons/ka.png</file>
+        <file>../icons/ko.png</file>
+        <file>../icons/lv.png</file>
+        <file>../icons/ms.png</file>
+        <file>../icons/nb.png</file>
+        <file>../icons/nl.png</file>
+        <file>../icons/nn.png</file>
+        <file>../icons/pl.png</file>
+        <file>../icons/pt.png</file>
+        <file>../icons/ro.png</file>
+        <file>../icons/ru.png</file>
+        <file>../icons/sk.png</file>
+        <file>../icons/sl.png</file>
+        <file>../icons/sr.png</file>
+        <file>../icons/sv.png</file>
+        <file>../icons/th.png</file>
+        <file>../icons/tr.png</file>
+        <file>../icons/uk.png</file>
+        <file>../icons/vi.png</file>
+        <file>../icons/zh_CN.png</file>
+        <file>../icons/zh_TW.png</file>
+    </qresource>
+</RCC>

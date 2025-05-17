@@ -1,0 +1,80 @@
+name: hello-qt6
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: "${{ matrix.os }}"
+    runs-on: "${{ matrix.os }}"
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, macos-13 ]
+        include:
+          - os: ubuntu-latest
+            script_name: ./resources/scripts/github-actions/build-linux-mac.sh
+          - os: macos-13
+            script_name: ./resources/scripts/github-actions/build-linux-mac.sh
+    
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        submodules: true
+
+    - name: Delete old development binaries
+      uses: mknejp/delete-release-assets@v1
+      if: strategy.job-index == 0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: devbuild
+        fail-if-no-assets: false
+        fail-if-no-release: false
+        assets: |
+          *.AppImage
+          *.dmg
+          *.exe
+          *.7z
+
+    - name: Update "devbuild" tag
+      uses: richardsimko/update-tag@v1.0.5
+      if: strategy.job-index == 0
+      with:
+        tag_name: devbuild
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Prepare environment and compile application
+      run: ${{ matrix.script_name }} "${{ matrix.os }}"
+
+    - name: Release development binaries
+      uses: softprops/action-gh-release@v1
+      with:
+        prerelease: true
+        name: "Development builds"
+        tag_name: "devbuild"
+        files: |
+          hello-qt6-*win64.exe
+          hello-qt6-*win64.7z
+          /Users/runner/work/hello-qt6/hello-qt6/hello-qt6-build/hello-qt6-*mac64.dmg
+          /home/runner/work/hello-qt6/hello-qt6/hello-qt6-build/hello-qt6-*linux64.AppImage
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Release stable binaries
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        prerelease: false
+        files: |
+          hello-qt6-*win64.exe
+          hello-qt6-*win64.7z
+          /Users/runner/work/hello-qt6/hello-qt6/hello-qt6-build/hello-qt6-*mac64.dmg
+          /home/runner/work/hello-qt6/hello-qt6/hello-qt6-build/hello-qt6-*linux64.AppImage
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
