@@ -1,4 +1,4 @@
-qt6 hello world template app
+Simple qt6 hello world template
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/koppi/hello-qt6)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koppi/hello-qt6)
